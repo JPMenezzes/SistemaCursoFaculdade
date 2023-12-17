@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface TurmaCursoJPARepository extends JpaRepository<TurmaCurso, Long> {
-    // Adicione métodos de consulta personalizados, se necessário
+
 }

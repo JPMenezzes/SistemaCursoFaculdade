@@ -27,7 +27,7 @@ public class TurmaCurso {
     @JoinColumn(name = "curso_id")
     private Curso curso;
 
-    @OneToMany(mappedBy = "turmaCurso"/*, cascade = CascadeType.ALL*/)
+    @OneToMany(mappedBy = "turmaCurso")
     private List<EstudantesMatriculados> estudantesMatriculados;
 
     public TurmaCurso() {
