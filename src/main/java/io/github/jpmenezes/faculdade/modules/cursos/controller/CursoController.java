@@ -37,19 +37,4 @@ public class CursoController {
         return repository.findAll();
     }
 
-    /*
-    @Autowired
-    private CursoService service;
-
-    @GetMapping
-    public ResponseEntity<List<Curso>> findAll(){
-        List<Curso> list = service.findAll();
-        return ResponseEntity.ok().body(list);
-    }
-
-    @GetMapping(value = "/{id}")
-    public ResponseEntity<Curso> findById(@PathVariable Long id){
-        Curso obj = service.findById(id);
-        return ResponseEntity.ok().body(obj);
-    }*/
 }

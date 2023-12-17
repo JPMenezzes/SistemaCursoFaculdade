@@ -20,7 +20,7 @@ public class Curso implements Serializable {
     private String cargaHoraria;
     private String descricao;
 
-    @OneToMany(mappedBy = "curso"/*, cascade = CascadeType.ALL*/)
+    @OneToMany(mappedBy = "curso")
     private List<TurmaCurso> turmas;
 
     public Curso() {
