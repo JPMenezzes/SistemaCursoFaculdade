@@ -20,11 +20,11 @@ public class Estudante implements Serializable {
     private String endereco;
     private String emailInstitucional;
 
-    @OneToMany/*(cascade = CascadeType.ALL)*/
+    @OneToMany
     @JoinColumn(name = "estudante_id")
     private List<Celular> celulares;
 
-    @OneToMany(mappedBy = "estudante"/*, cascade = CascadeType.ALL*/)
+    @OneToMany(mappedBy = "estudante")
     private Set<EstudantesMatriculados> estudantesMatriculados;
 
     // Construtores
