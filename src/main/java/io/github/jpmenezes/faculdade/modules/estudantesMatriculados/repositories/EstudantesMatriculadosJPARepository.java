@@ -4,5 +4,5 @@ import io.github.jpmenezes.faculdade.modules.estudantesMatriculados.entities.Est
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EstudantesMatriculadosJPARepository extends JpaRepository<EstudantesMatriculados, Long> {
-    // Adicione métodos personalizados se necessário
+
 }

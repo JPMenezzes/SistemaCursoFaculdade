@@ -50,12 +50,8 @@ public class EstudantesMatriculados {
         TurmaCurso turma = this.turmaCurso;
         List<EstudantesMatriculados> matriculados = turma.getEstudantesMatriculados();
 
-        // Adicione a lógica desejada, se necessário, para filtrar a lista conforme necessário
-
         return matriculados;
     }
-
-    // Outros métodos conforme necessário
 
     public Long getId() {
         return id;

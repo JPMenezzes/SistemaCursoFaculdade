@@ -38,5 +38,4 @@ public class EstudantesMatriculadosController {
         return repository.findAll();
     }
 
-    // Outros métodos conforme necessário
 }
