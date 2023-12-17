@@ -31,8 +31,4 @@ public class CelularEmMemoriaRepository implements ICelularRepository {
         return celular;
     }
 
-    /*@Override
-    public void delete(Celular celular) {
-        celulares.remove(celular);
-    }*/
 }

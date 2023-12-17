@@ -35,27 +35,4 @@ public class CelularController {
         return ResponseEntity.ok(repository.save(celular));
     }
 
-
-    /*@PutMapping("/update/{id}")
-    public ResponseEntity<Celular> atualizarCelular(@PathVariable Long id, @RequestBody Celular celular) {
-        Optional<Celular> celularExistente = repository.findById(id);
-        if (celularExistente.isPresent()) {
-            celular.setId(id);
-            Celular celularAtualizado = repository.save(celular);
-            return ResponseEntity.ok(celularAtualizado);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }*/
-
-    /*@DeleteMapping("/delete/{id}")
-    public ResponseEntity<Void> deletarCelular(@PathVariable Long id) {
-        Optional<Celular> celular = celularService.getCelularById(id);
-        if (celular.isPresent()) {
-            celularService.deleteCelular(id);
-            return ResponseEntity.noContent().build();
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }*/
 }

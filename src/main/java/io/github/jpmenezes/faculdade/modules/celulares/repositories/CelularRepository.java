@@ -23,11 +23,6 @@ public class CelularRepository implements ICelularRepository {
         return this.celularJPARepository.save(celular);
     }
 
-    /*@Override
-    public void deleteById(Long id) {
-        this.celularJPARepository.deleteById(id);
-    }*/
-
     @Override
     public List<Celular> findAll() {
         return this.celularJPARepository.findAll();

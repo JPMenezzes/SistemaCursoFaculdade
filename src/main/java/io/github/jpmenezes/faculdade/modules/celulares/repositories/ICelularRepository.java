@@ -10,6 +10,5 @@ public interface ICelularRepository {
     Optional<Celular> findById(Long id);
     Celular save(Celular celular);
 
-    /*void delete(Celular celular);*/
 }
 

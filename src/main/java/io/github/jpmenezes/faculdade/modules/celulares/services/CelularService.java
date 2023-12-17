@@ -26,8 +26,6 @@ public class CelularService {
         return celularRepository.save(celular);
     }
 
-    // Adicione outras validações e lógicas conforme necessário
-
     private void validarCelular(Celular celular) {
         if (celular.getNumero() == null || celular.getEstudante() == null) {
             throw new IllegalArgumentException("Número de celular e estudante são obrigatórios.");
